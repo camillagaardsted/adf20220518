@@ -1,0 +1,11 @@
+{
+	"name": "raspdatalake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://datalakesu20220516.dfs.core.windows.net"
+		}
+	}
+}

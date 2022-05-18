@@ -1,0 +1,9 @@
+{
+	"name": "datafactory20220518",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35de4b2b-d505-4dcd-9686-4f51df00e54f",
+		"tenantId": "6f3b8368-1c7d-4ee6-9f65-99dbbc01b14c"
+	}
+}
