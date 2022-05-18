@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory20220518"
+		},
+		"raspdatalake_properties_typeProperties_url": {
+			"value": "https://datalakesu20220516.dfs.core.windows.net"
+		},
+		"ssi http_properties_typeProperties_url": {
+			"value": "https://files.ssi.dk/covid19/overvagning/data/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
