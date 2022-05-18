@@ -2,7 +2,7 @@
 	"name": "csv_files_in_datalake",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "corona datalake container",
+			"referenceName": "raspdatalake",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "corona"
+				"fileSystem": "covid19dynamic"
 			}
 		}
 	},
